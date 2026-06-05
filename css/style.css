@@ -698,9 +698,22 @@ nav a:hover{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns:repeat(2,1fr);
 
     gap:25px;
+
+    max-width:900px;
+
+    margin:0 auto;
+}
+
+@media (max-width: 768px){
+
+    .timeline{
+
+        grid-template-columns:1fr;
+    }
+
 }
 
 .timeline-item{
