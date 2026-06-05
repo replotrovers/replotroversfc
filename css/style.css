@@ -588,3 +588,152 @@ nav a:hover{
 
     margin-bottom:10px;
 }
+
+/* ABOUT NAVIGATION */
+
+.about-nav{
+
+    background:#1e1e1e;
+
+    padding:20px 0;
+}
+
+.nav-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.nav-logo{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    font-size:1.3rem;
+}
+
+.about-nav nav{
+
+    display:flex;
+
+    gap:25px;
+}
+
+.about-nav nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.about-cta{
+
+    text-align:center;
+
+    background:#801818;
+
+    color:white;
+
+    padding:60px 30px;
+
+    border-radius:20px;
+
+    margin-top:60px;
+}
+
+.about-cta h2{
+
+    color:white;
+
+    margin-bottom:20px;
+}
+
+.about-cta p{
+
+    margin-bottom:30px;
+}
+
+.cta-button{
+
+    display:inline-block;
+
+    background:white;
+
+    color:#801818;
+
+    padding:15px 30px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:700;
+}
+
+.roadmap{
+
+    margin-top:80px;
+
+    margin-bottom:80px;
+
+    text-align:center;
+}
+
+.roadmap h2{
+
+    color:#801818;
+
+    margin-bottom:50px;
+}
+
+.timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+}
+
+.timeline-item{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.timeline-item span{
+
+    display:inline-block;
+
+    background:#801818;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:50px;
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+}
+
+.timeline-item h3{
+
+    margin-bottom:15px;
+
+    color:#801818;
+}
