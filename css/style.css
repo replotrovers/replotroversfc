@@ -520,163 +520,71 @@ nav a:hover{
     cursor:pointer;
 }
 
+/* ABOUT PAGE */
+
+.page-header{
+
     background:#801818;
 
     color:white;
 
-    padding:100px 20px;
-
-    text-align:center;
-}
-
-.supporters-content{
-
-    max-width:800px;
-
-    margin:auto;
-}
-
-.supporters-content h2{
-
-    font-size:2.5rem;
-
-    margin-bottom:25px;
-}
-
-.supporters-content p{
-
-    margin-bottom:20px;
-
-    line-height:1.8;
-}
-
-.supporters-button{
-
-    display:inline-block;
-
-    margin-top:20px;
-
-    padding:15px 35px;
-
-    background:white;
-
-    color:#801818;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
-    border-radius:50px;
-}
-
-.sponsors{
-
-    width:90%;
-
-    max-width:1200px;
-
-    margin:auto;
-
-    padding:100px 0;
-}
-
-.sponsor-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(4,1fr);
-
-    gap:30px;
-}
-
-.sponsor-card{
-
-    background:white;
-
-    height:150px;
-
-    border-radius:15px;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-weight:bold;
-
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
-
-.footer{
-
-    background:#1f1f1f;
-
-    color:white;
-
     text-align:center;
 
-    padding:60px 20px;
+    padding:100px 20px 80px;
 }
 
-.footer img{
+.page-header h1{
 
-    width:80px;
-
-    margin-bottom:15px;
-}
-
-.footer h3{
+    font-size:3rem;
 
     margin-bottom:10px;
 }
 
-.footer p{
+.page-header p{
 
-    margin-bottom:8px;
+    font-size:1.2rem;
+
+    opacity:0.9;
 }
 
-.menu-button{
+.content-section{
 
-    display:none;
+    background:#F5F7FA;
 
-    background:none;
-
-    border:none;
-
-    color:white;
-
-    font-size:2rem;
-
-    cursor:pointer;
+    padding:80px 20px;
 }
 
-@media (max-width: 768px){
+.container{
 
-    .menu-button{
-        display:block;
-    }
+    max-width:900px;
 
-    nav{
+    margin:0 auto;
+}
 
-        display:none;
+.content-section h2{
 
-        position:absolute;
+    color:#801818;
 
-        top:100%;
+    margin-top:50px;
 
-        left:0;
+    margin-bottom:20px;
+}
 
-        width:100%;
+.content-section p{
 
-        background:#801818;
+    line-height:1.8;
 
-        flex-direction:column;
+    margin-bottom:20px;
+}
 
-        padding:20px;
-    }
+.content-section ul{
 
-    nav.show{
-        display:flex;
-    }
+    margin-left:25px;
+
+    line-height:1.8;
+}
+
+.content-section li{
+
+    margin-bottom:10px;
 }
