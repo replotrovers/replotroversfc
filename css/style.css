@@ -755,7 +755,6 @@ nav a:hover{
 
 .founding-progress{
 
-```
 background:white;
 
 padding:40px;
@@ -765,13 +764,11 @@ border-radius:20px;
 text-align:center;
 
 margin:50px 0;
-```
 
 }
 
 .progress-bar{
 
-```
 width:100%;
 
 height:25px;
@@ -783,7 +780,6 @@ border-radius:50px;
 overflow:hidden;
 
 margin:20px 0;
-```
 
 }
 
@@ -797,7 +793,6 @@ margin:20px 0;
 
 .founding-grid{
 
-```
 display:grid;
 
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -805,13 +800,11 @@ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
 
 margin-top:40px;
-```
 
 }
 
 .founding-card{
 
-```
 background:white;
 
 padding:30px;
@@ -827,10 +820,176 @@ text-align:center;
 
 .founding-card h3{
 
-```
 color:#801818;
 
 margin-bottom:15px;
-```
 
 }
+
+/* PARTNERS PAGE */
+
+.partners-hero{
+
+background:
+linear-gradient(rgba(0,0,0,0.55),
+rgba(0,0,0,0.55)),
+url('../images/hero.png');
+
+background-size:cover;
+
+background-position:center;
+
+color:white;
+
+text-align:center;
+
+padding:140px 20px;
+
+}
+
+.partners-hero h1{
+
+font-size:3rem;
+
+margin-bottom:20px;
+
+}
+
+.partners-hero p{
+
+font-size:1.2rem;
+
+max-width:700px;
+
+margin:0 auto 30px;
+
+}
+
+.partner-highlight{
+
+background:#801818;
+
+color:white;
+
+text-align:center;
+
+padding:80px 20px;
+
+}
+
+.partner-highlight h2{
+
+color:white;
+
+margin-bottom:20px;
+
+}
+
+.partner-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.partner-card{
+
+    background:white;
+
+    color:#222;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+}
+
+.partner-card h3{
+
+color:#801818;
+
+margin-bottom:15px;
+
+}
+
+.vision-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.vision-card{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.vision-card h3{
+color:#801818;
+margin-bottom:15px;
+}
+
+.early-partner-box{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+margin-top:30px;
+}
+
+.benefits-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.benefit-card{
+background:#801818;
+color:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.benefit-card h3{
+color:white;
+margin-bottom:10px;
+}
+
+.partner-wall-intro{
+max-width:800px;
+margin-bottom:40px;
+}
+
+.logo-wall{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.logo-placeholder{
+background:white;
+height:140px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+font-weight:700;
+color:#801818;
+border:2px dashed #801818;
+}
+
